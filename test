@@ -1,0 +1,6 @@
+git clone https://github.com/nico/nico.git
+cd nico
+echo "Das ist ein Test." > test.txt
+git add test.txt
+git commit -m "Füge Testdatei mit Nachricht hinzu"
+git push origin main
