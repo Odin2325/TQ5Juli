@@ -1,0 +1,78 @@
+(Bereich)       (Umsetzung)
+
+Plattform:	Android
+Sprache:	Kotlin
+Login:	E-Mail + Passwort, sichere Übertragung
+Trainingsplan:	Anzeige individueller Daten vom Server
+Datenhaltung:	Server mit MySQL-Datenbank
+Sicherheit:	HTTPS, Token, kein Klartext, Logout bei Inaktivität
+
+1. Ziel der App
+Die App soll Mitgliedern eines Fitnessstudios die Möglichkeit geben:
+
+sich mit einem persönlichen Login sicher anzumelden,
+
+ihren individuellen Trainingsplan anzusehen,
+
+und die App ausschließlich auf Android-Geräten zu nutzen.
+
+Ziel ist es, den Mitgliedern eine einfache und benutzerfreundliche Anwendung zur Verfügung zu stellen, mit der sie jederzeit und überall ihren Trainingsplan abrufen können.
+
+
+2. Funktionen der App
+2.1 Login
+Mitglieder geben ihre E-Mail-Adresse und ein Passwort ein.
+
+Die Daten werden sicher an den Server gesendet.
+
+Bei korrekten Daten werden sie eingeloggt.
+
+Bei falschen Daten erscheint eine Fehlermeldung.
+
+
+
+2.2 Trainingsplan anzeigen
+Nach dem Login wird der persönliche Trainingsplan vom Server geladen.
+
+Der Plan zeigt:
+
+Übungen
+
+Anzahl der Sätze und Wiederholungen
+
+Trainingstage
+
+Der Plan wird übersichtlich in der App dargestellt.
+
+3. Technische Umsetzung
+3.1 Programmiersprache und Entwicklung
+Die App wird mit Kotlin programmiert.
+
+Die Entwicklungsumgebung ist Android Studio.
+
+Die App läuft auf Android 8.0 (Oreo) oder neuer.
+
+3.2 Server und Datenbank
+Die App verbindet sich mit einem externen Server.
+
+Die Mitgliedsdaten und Trainingspläne werden in einer MySQL-Datenbank gespeichert.
+
+Der Server stellt eine REST-API bereit, über die die App Daten abruft und sendet.
+
+
+
+4. Sicherheit
+Die Verbindung zwischen App und Server ist verschlüsselt (HTTPS).
+
+Die Zugangsdaten werden nicht im Klartext gespeichert.
+
+Nach dem Login wird ein Zugangstoken gespeichert, damit das Mitglied eingeloggt bleibt.
+
+Beim Beenden der App wird der Token gelöscht oder nach einer Zeitspanne automatisch ungültig.
+
+5. Einschränkungen
+Die App funktioniert nur auf Android-Geräten.
+
+Eine iOS-Version ist nicht geplant.
+
+Die App benötigt eine Internetverbindung, um Trainingspläne anzuzeigen.
