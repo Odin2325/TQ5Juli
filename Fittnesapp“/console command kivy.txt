@@ -1,0 +1,2 @@
+Open a terminal or command prompt and navigate into the kivy directory.
+Type: python buildoapk -d android --name Fittnes main.py
