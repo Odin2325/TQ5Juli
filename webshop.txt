@@ -1,0 +1,39 @@
+✅ Pflichtenheft Webshop 
+1. Ziel
+Ein moderner Online-Shop, der Produkte zeigt, einen Warenkorb hat, Online-Bezahlung ermöglicht (PayPal und Kreditkarte) und über ein Admin-Panel verwaltet werden kann.
+
+2. Technik
+Aufbau: Klassisches System mit Frontend (für die Nutzer) und Backend (für die Daten).
+
+Frontend (Benutzeroberfläche): Mit React oder Vue gebaut.
+
+Backend (Serverlogik): Mit Node.js oder PHP.
+
+Datenbank: PostgreSQL oder MySQL.
+
+Kommunikation: Frontend & Backend sprechen über eine API.
+
+Bereitstellung: Läuft in Containern (Docker) z. B. bei AWS oder Azure.
+
+3. Funktionen
+Produkte anzeigen: Mit Details, Preis, Bildern, Suchfunktion.
+
+Warenkorb: Produkte hinzufügen/entfernen, Preis anzeigen.
+
+Bezahlung: PayPal und Kreditkarte über sichere Schnittstellen.
+
+Benutzerkonten: Registrierung, Login, Passwort-Reset.
+
+Admin-Panel: Produkte verwalten, Bilder hochladen, Statistiken sehen.
+
+4. Besonderheiten
+Responsiv: Funktioniert auf Handy und PC.
+
+Sicher: Verschlüsselung, sichere Passwörter, Schutz vor Angriffen.
+
+Schnell: Inhalte werden vorgeladen, Server nicht überlastet.
+
+5. Tests
+Automatisierte Tests (Frontend, Backend)
+
+Benutzerfreundlichkeit wird manuell geprüft (vor allem auf Handys)
