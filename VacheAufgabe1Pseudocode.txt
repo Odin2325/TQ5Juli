@@ -1,0 +1,32 @@
+PROZEDUR Main()
+    tasklist <- []
+    SOLANGE wahr
+        GEBE AUS "1. Add Task"
+        GEBE AUS "1. Edit Task"
+        GEBE AUS "3. Delete Task"
+        GEBE AUS "4. Mark Task as completed"
+        GEBE AUS "5. View Tasks"
+        GEBE AUS "6. Sort Tasks"
+        GEBE AUS "7. Exit Tasks"
+
+        LIES userChoice
+
+        WENN userChoice = 1 DANN
+            AddTask()
+        ANSONSTEN WENN userChoice = 2 DANN
+            EditTask()
+        ANSONSTEN WENN userChoice = 3 DANN
+            DeleteTask()
+        ANSONSTEN WENN userChoice = 4 DANN
+            MarkTaskCompleted()
+        ANSONSTEN WENN userChoice = 5 DANN
+            ViewTasks()
+        ANSONSTEN WENN userChoice = 6 DANN
+            SortTasks()
+        ANSONSTEN WENN userChoice = 7 DANN
+            ENDEWENN
+        SONST
+            GEBE AUS "Invalid choice. Please try again."
+        ENDEWENN
+    ENDESOLANGE
+ENDEPROZEDUR
