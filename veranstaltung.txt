@@ -1,0 +1,67 @@
+Use Case: Veranstaltung erstellen und veröffentlichen
+• Use Case Name:
+Neue Veranstaltung anlegen und veröffentlichen
+
+• Akteure:
+Hauptakteur: Veranstalter (z. B. Eventmanager, Agentur)
+
+Sekundäre Akteure: Event-Management-System, Zahlungssystem (bei kostenpflichtigen Events), Teilnehmer (indirekt)
+
+• Ziel:
+Der Veranstalter erstellt eine neue Veranstaltung mit allen relevanten Informationen und veröffentlicht sie auf der Plattform, sodass Teilnehmer Tickets buchen oder sich registrieren können.
+
+• Vorbedingungen:
+Der Veranstalter ist auf der Plattform registriert und eingeloggt.
+
+Das Benutzerkonto ist aktiv und verifiziert.
+
+Der Veranstalter hat die nötigen Berechtigungen, Events zu erstellen.
+
+• Nachbedingungen:
+Die Veranstaltung ist auf der Plattform veröffentlicht und sichtbar.
+
+Die Veranstaltungsdaten sind im System gespeichert.
+
+Die Buchung oder Registrierung durch Teilnehmer ist möglich.
+
+• Hauptablauf:
+Der Veranstalter loggt sich auf der Plattform ein.
+
+Er klickt auf „Neue Veranstaltung erstellen“.
+
+Er gibt grundlegende Informationen ein (Titel, Beschreibung, Datum, Uhrzeit, Ort).
+
+Er fügt optionale Inhalte hinzu (Bilder, Agenda, Sprecher etc.).
+
+Er legt Ticketarten oder Teilnahmebedingungen fest (z. B. kostenlos, begrenzte Plätze, Preis).
+
+Er definiert die Registrierungs- oder Buchungsmodalitäten.
+
+Er überprüft alle Angaben in der Vorschau.
+
+Er klickt auf „Veröffentlichen“.
+
+Das System stellt die Veranstaltung online und generiert eine Veranstaltungsseite.
+
+• Alternativabläufe:
+A1: Der Veranstalter speichert die Veranstaltung als Entwurf.
+→ Die Veranstaltung wird nicht veröffentlicht, bleibt aber im Account gespeichert.
+
+A2: Der Veranstalter plant die Veröffentlichung zu einem späteren Zeitpunkt.
+→ Veröffentlichung wird automatisch zum angegebenen Datum aktiviert.
+
+A3: Die Veranstaltung ist privat (z. B. nur mit Einladung zugänglich).
+→ Die Sichtbarkeit wird entsprechend eingeschränkt.
+
+• Ausnahmen:
+E1: Fehlende Pflichtangaben (z. B. kein Datum oder Ort).
+→ Das System verhindert die Veröffentlichung und zeigt eine Fehlermeldung.
+
+E2: Ungültige Datumsangaben (z. B. Enddatum vor Startdatum).
+→ System meldet Fehler und fordert zur Korrektur auf.
+
+E3: Netzwerkunterbrechung beim Speichern.
+→ Der Vorgang schlägt fehl; Veranstalter muss erneut speichern/veröffentlichen.
+
+E4: Der Veranstalter überschreitet ein Veranstaltungslimit (z. B. in Gratis-Account).
+→ Veröffentlichung wird blockiert, Upgrade-Hinweis wird angezeigt.
