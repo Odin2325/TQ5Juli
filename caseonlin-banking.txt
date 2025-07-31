@@ -1,0 +1,60 @@
+Use Case: Dauerauftrag einrichten
+
+• Use Case Name:
+Dauerauftrag für regelmäßige Zahlung einrichten
+
+• Akteure:
+Hauptakteur: Privatkunde
+
+Sekundäre Akteure: Bankserver, Benachrichtigungssystem
+
+• Ziel:
+Der Kunde richtet einen Dauerauftrag für eine wiederkehrende Zahlung (z. B. Miete) ein, der automatisch in regelmäßigen Abständen ausgeführt wird.
+
+• Vorbedingungen:
+Der Kunde ist im Online-Banking-System registriert.
+
+Der Kunde ist erfolgreich eingeloggt.
+
+Das Konto des Kunden ist aktiv und verfügbar.
+
+Es liegt keine Kontosperrung oder Limitüberschreitung vor.
+
+• Nachbedingungen:
+Der Dauerauftrag ist im System gespeichert.
+
+Der Kunde erhält eine Bestätigung der Einrichtung.
+
+Die erste Ausführung wird zum geplanten Datum ausgelöst.
+
+• Hauptablauf:
+Der Kunde loggt sich in das Online-Banking ein.
+
+Der Kunde navigiert zur Funktion „Dauerauftrag einrichten“.
+
+Der Kunde gibt Empfänger, IBAN, Betrag, Zahlungsrhythmus und Startdatum ein.
+
+Der Kunde prüft die Eingaben und bestätigt die Einrichtung.
+
+Das System prüft die Angaben auf Gültigkeit.
+
+Der Dauerauftrag wird im System gespeichert.
+
+Der Kunde erhält eine Bestätigung per Anzeige und optional per E-Mail oder Push-Nachricht.
+
+• Alternativabläufe:
+A1: Der Kunde wählt ein bestehendes gespeichertes Zahlungskonto als Empfänger.
+→ Die Eingabe der Empfängerdaten entfällt.
+
+A2: Der Kunde setzt ein Enddatum oder eine maximale Anzahl von Ausführungen.
+→ Diese Bedingungen werden ebenfalls im System hinterlegt.
+
+• Ausnahmen:
+E1: Der Kunde gibt eine ungültige IBAN ein.
+→ Das System zeigt eine Fehlermeldung, Einrichtung wird abgebrochen.
+
+E2: Das System erkennt eine Überschreitung des Tageslimits.
+→ Der Kunde wird informiert und muss Limit oder Betrag anpassen.
+
+E3: Technischer Fehler bei der Speicherung des Dauerauftrags.
+→ Der Vorgang wird abgebrochen, der Kunde wird gebeten, es erneut zu versuchen.
