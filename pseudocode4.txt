@@ -1,0 +1,11 @@
+Function deletetask
+   viewtask()
+   Ausgabe "Enter task number to delete:"
+   Eingabe tasknumber
+   wenn tasknumber = True Dann
+        Remove Tasklist(tasknumber)
+        gebe aus "Task deleted successfully."
+   sonst
+        gebe aus "Invalid task number."
+   End wenn
+End Function
