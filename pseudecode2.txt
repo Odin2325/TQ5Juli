@@ -1,0 +1,12 @@
+Function Addtask
+     Ausgabe "Enter task description"
+     Eingabe dscription
+     Ausgabe "Enter due date(YYYY-MM-DD):"
+     Eingabe duedate 
+     Ausgabe "Enter priority (1-5):"
+     Eingabe priority
+     task <- Create Task(description, dueDate,priority,False)
+     Tasklist <- task+Tasklist
+     Gebe Aus "Task added successfully."
+End Function 
+ 
