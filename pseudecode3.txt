@@ -1,0 +1,19 @@
+Function EditTask
+     viewtasks()
+     Ausgabe"Enter task number to edit:"
+     Eingabe tasknumber
+     wenn tasknumber = True Dann
+          Aungabe "Enter new description:"
+          Eingabe description 
+          Eingabe "Enter neu due date (YYYY-MM-DD):"
+          Ausgabe dueDate
+          Ausgabe "Enter new priority(1-5):
+          Eingabe priority
+          Tasklist[tasknumber].description <- description
+          Tasklist[tasknumber].dueDate <- dueDate
+          Tasklist[tasknumber].priority<- priority
+          gebe aus "Task updated bsuccessfully."
+     sonst
+          gebe aus "Invalid task number"
+     End wenn
+End Function
