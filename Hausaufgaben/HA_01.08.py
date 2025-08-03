@@ -11,24 +11,24 @@ def main():
         print("7. Exit")
 
         try:
-            user_choice = int(input("Enter your choice: "))
+            Eingabe = int(input("Enter your choice: "))
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
 
-        if user_choice == 1:
+        if Eingabe == 1:
             add_task(task_list)
-        elif user_choice == 2:
+        elif Eingabe == 2:
             edit_task(task_list)
-        elif user_choice == 3:
+        elif Eingabe == 3:
             delete_task(task_list)
-        elif user_choice == 4:
+        elif Eingabe == 4:
             mark_task_completed(task_list)
-        elif user_choice == 5:
+        elif Eingabe == 5:
             view_tasks(task_list)
-        elif user_choice == 6:
+        elif Eingabe == 6:
             sort_tasks(task_list)
-        elif user_choice == 7:
+        elif Eingabe == 7:
             print("Goodbye!")
             break
         else:
