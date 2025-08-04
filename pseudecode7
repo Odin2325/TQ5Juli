@@ -1,0 +1,13 @@
+PROZEDURE Rechtecks()
+     Zahlen Lange, Breit, Gebiet
+     AUSGABE "gib lange des Rechtecks:"
+     EINGABE Lange
+     AUSGABE "gib Breit des Rechtecks"
+     EINGABE Breit
+     Gebiet:= Lange * Breit
+     AUSGABE "DAS GEBIET DES RECHTECKS IST:", GEBIET
+ENDPROZUDER
+     
+
+
+
