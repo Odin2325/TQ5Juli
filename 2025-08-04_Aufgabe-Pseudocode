@@ -1,0 +1,50 @@
+# Summe von zwei Zahlen berechnen:
+START
+    Ganzzahl nZahl1, nZahl2, nSumme
+    AUSGABE "GIB DIE ERSTE ZAHL EIN: "
+    EINGABE nZahl1
+    AUSGABE "GIB DIE ZWEITE ZAHL EIN: "
+    EINGABE nZahl2
+    nSumme ← nZahl1 + nZahl2
+    AUSGABE "SUMME DIESER ZAHLEN: ", nSumme
+ENDE
+
+
+# Fläche eines Rechtecks:
+START
+    Ganzzahl Länge, Breite, Fläche
+    AUSGABE "GIB DIE LÄNGE DES RECHTECKS EIN: "
+    EINGABE Länge
+    AUSGABE "GIB DIE BREITE DES RECHTECKS EIN: "
+    EINGABE Breite
+    Fläche ← Länge * Breite
+    AUSGABE "FLÄCHE DES RECHTECKS: ", Fläche
+ENDE
+
+
+# Umfang eines Rechtecks:
+START
+    Ganzzahl Länge, Breite, Umfang
+    AUSGABE "GIB DIE LÄNGE DES RECHTECKS EIN: "
+    EINGABE Länge
+    AUSGABE "GIB DIE BREITE DES RECHTECKS EIN: "
+    EINGABE Breite
+    Umfang ← 2 * (Länge + Breite)
+    AUSGABE "UMFANG DES RECHTECKS: ", Umfang
+ENDE
+
+
+# Finde die größte zweier Zahlen:
+START
+    Ganzzahl Zahl1, Zahl2
+    AUSGABE "GIB DIE ERSTE ZAHL EIN: "
+    EINGABE Zahl1
+    AUSGABE "GIB DIE ZWEITE ZAHL EIN: "
+    EINGABE Zahl2
+
+    WENN (Zahl1 > Zahl2) 
+    DANN
+        AUSGABE "GRÖSSERE ZAHL: ", Zahl1
+    SONST
+        AUSGABE "GRÖSSERE ZAHL: ", Zahl2
+ENDE
