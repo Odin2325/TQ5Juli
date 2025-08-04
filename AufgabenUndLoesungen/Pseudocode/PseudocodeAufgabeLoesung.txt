@@ -1,0 +1,12 @@
+PROZEDUR AddTask()
+    AUSGABE "Enter task description:"
+    EINGABE description
+    AUSGABE "Enter due Date (YYYY-MM-DD):"
+    EINGABE dueDate
+    AUSGABE "Enter priority (1-5):"
+    EINGABE priority
+
+    task <- CreateTask(description, dueDate, priority, False)
+    task_list <- Add(task)
+    Display("Task added successfully")
+ENDE PROZEDUR
