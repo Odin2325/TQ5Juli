@@ -1,0 +1,55 @@
+Use Case: Buch ausleihen
+• Use Case Name:
+Buchausleihe durch registrierten Nutzer
+• Akteure:
+Hauptakteur: Studierender (Nutzer)
+
+Sekundäre Akteure: Bibliothekssystem, Bibliotheksmitarbeiter
+• Ziel:
+Der Studierende leiht ein verfügbares Buch aus der Universitätsbibliothek aus und erhält es zur Nutzung für einen definierten Zeitraum.
+Vorbedingungen:
+Der Studierende ist im Bibliothekssystem registriert.
+
+Der Studierende ist eingeloggt (bei Online-Ausleihe).
+
+Das gewünschte Buch ist verfügbar (nicht ausgeliehen oder reserviert).
+
+Der Studierende hat keine offenen Mahngebühren oder Sperren.
+• Nachbedingungen:
+Das Buch ist als ausgeliehen im System markiert.
+
+Das Ausleihdatum und das Rückgabedatum sind im Nutzerkonto vermerkt.
+
+Der Studierende erhält eine Ausleihbestätigung (z. B. per E-Mail)
+• Hauptablauf:
+Der Studierende sucht im Katalog nach einem gewünschten Buch.
+
+Das System zeigt die Verfügbarkeit an.
+
+Der Studierende wählt "Ausleihen" (online oder am Terminal).
+
+Das System prüft die Berechtigung und Verfügbarkeit.
+
+Das Buch wird im System dem Nutzer zugewiesen.
+
+Das Buch wird entweder automatisch in der Ausleihtheke vorbereitet (bei Online-Ausleihe) oder der Nutzer holt es direkt ab.
+
+Der Nutzer erhält eine Bestätigung mit Rückgabedatum
+ Alternativabläufe:
+A1: Der Nutzer reserviert das Buch, falls es momentan ausgeliehen ist.
+→ Das System setzt den Nutzer auf die Warteliste.
+
+A2: Der Nutzer verlängert die Ausleihfrist direkt bei der Ausleihe (wenn möglich).
+→ Neues Rückgabedatum wird festgelegt.
+
+A3: Die Ausleihe erfolgt über einen Selbstbedienungsautomaten.
+→ Systemablauf bleibt gleich, nur Benutzeroberfläche ist lokal.
+• Ausnahmen:
+E1: Das Buch ist beschädigt oder im System falsch erfasst.
+→ Der Nutzer erhält eine Fehlermeldung, Bibliotheksmitarbeiter wird informiert.
+
+E2: Der Nutzer hat Mahngebühren überschritten.
+→ Das System verweigert die Ausleihe, zeigt eine entsprechende Meldung an.
+
+E3: Systemfehler oder Netzwerkausfall während des Ausleihvorgangs.
+→ Der Prozess wird abgebrochen, Nutzer wird gebeten, es später erneut zu versuchen.

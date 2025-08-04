@@ -1,0 +1,9 @@
+Titel: Kategorien zur Aufgabenorganisation nutzen
+Beschreibung: Als Student möchte ich meine Aufgaben in Kategorien wie "Uni", "Freizeit" oder "Job" einteilen können, damit ich schneller den Überblick behalte.
+Akzeptanzkriterien:
+
+Nutzer können Kategorien erstellen und benennen.
+
+Jede Aufgabe kann einer oder mehreren Kategorien zugewiesen werden.
+
+Kategorien können gefiltert oder farblich hervorgehoben dargestellt werden.
