@@ -1,0 +1,65 @@
+
+1-Summe von 2 Zahlen berechnen: 
+Beginn
+    Ganzzahl nZahl1, nZahl2, nSumme
+
+    Ausgabe "GIB DIE ERSTE ZAHL EIN:"
+    Eingabe nZahl1
+
+    Ausgabe "GIB DIE ZWEITE ZAHL EIN:"
+    Eingabe nZahl2
+
+    nSumme = nZahl1 + nZahl2
+
+    Ausgabe "DIE SUMME DER ZAHLEN IST:", nSumme
+Ende
+
+2-Fläche eines Rechtecks 
+Beginn
+    Ganzzahl Länge, Breite, Fläche
+
+    Ausgabe "GIB DIE LÄNGE DES RECHTECKS EIN:"
+    Eingabe Länge
+
+    Ausgabe "GIB DIE BREITE DES RECHTECKS EIN:"
+    Eingabe Breite
+
+    Fläche = Länge * Breite
+
+    Ausgabe "DIE FLÄCHE DES RECHTECKS IST:", Fläche
+Ende
+
+3-Umfang eines Rechtecks 
+beginn
+    Ganzzahl Länge, Breite, Umfang
+
+    Ausgabe "GIB DIE LÄNGE DES RECHTECKS EIN:"
+    Eingabe Länge
+
+    Ausgabe "GIB DIE BREITE DES RECHTECKS EIN:"
+    Eingabe Breite
+
+    Umfang = 2 * (Länge + Breite)
+
+    Ausgabe "DER UMFANG DES RECHTECKS IST:", Umfang
+Ende
+
+4-Finde die größte Zahl aus zwei
+
+Beginn
+    Ganzzahl Zahl1, Zahl2
+
+    Ausgabe "GIB DIE ERSTE ZAHL EIN:"
+    Eingabe Zahl1
+
+    Ausgabe "GIB DIE ZWEITE ZAHL EIN:"
+    Eingabe Zahl2
+
+    Wenn Zahl1 > Zahl2 dann
+        Ausgabe "DIE GRÖSSERE ZAHL IST:", Zahl1
+    sonst
+        Ausgabe "DIE GRÖSSERE ZAHL IST:", Zahl2
+Ende
+
+
+
