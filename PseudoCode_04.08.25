@@ -1,0 +1,71 @@
+PseudoCode_04.08.25
+
+//Summe zweier zahlen
+Beginne
+VARIABLE nNum1 : GLEITZAHL
+VARIABLE nNum2 : GLEITZAHL
+VARIABLE nNum3 : GLEITZAHL      //da numeric dezimal
+
+AUSGABE "ENTER THE FIRST NUMBER : "
+EINGABE nNum1
+
+AUSGABE "Geben Sie die zweite Zahl ein:"
+EINGABE nNum2
+
+nSum <- nNum1 + nNum2
+
+AUSGABE "SUM OF THESE NUMBER: " + summenSum
+Beende
+
+///Fläche Rechteck
+Beginne
+VARIABLE nlaenge : GLEITZAHL
+VARIABLE nbreite : GLEITZAHL
+VARIABLE nflaeche : GLEITZAHL
+
+AUSGABE "ENTER THE LENGTH OF RECTANGLE :"
+EINGABE nlaenge
+
+AUSGABE "ENTER THE BREADTH OF RECTANGLE :"
+EINGABE nbreite
+
+nflaeche <- nlaenge * nbreite
+
+AUSGABE "AREA OF RECTANGLE : " + nflaeche
+Beende
+
+// Umfang eines Rechtecks berechnen
+
+Beginne
+VARIABLE nlaenge : GLEITZAHL
+VARIABLE nbreite : GLEITZAHL
+VARIABLE numfang : GLEITZAHL
+
+AUSGABE "Geben Sie die Länge des Rechtecks ein:"
+EINGABE nlaenge
+
+AUSGABE "Geben Sie die Breite des Rechtecks ein:"
+EINGABE nbreite
+
+numfang <- 2 * (nlaenge + nbreite)
+x
+AUSGABE "Der Umfang beträgt: " + numfang
+Beende
+
+// Größere Zahl aus 2 bestimmen
+Beginne
+VARIABLE nzahl1 : GLEITZAHL
+VARIABLE nzahl2 : GLEITZAHL
+
+AUSGABE "Geben Sie die erste Zahl ein:"
+EINGABE nzahl1
+
+AUSGABE "Geben Sie die zweite Zahl ein:"
+EINGABE nzahl2
+
+WENN nzahl1 > nzahl2 DANN
+    AUSGABE "Die größere Zahl ist: " + nzahl1
+SONST
+    AUSGABE "Die größere Zahl ist: " + nzahl2
+ENDEWENN
+Beende
