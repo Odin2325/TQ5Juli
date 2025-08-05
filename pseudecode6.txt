@@ -1,0 +1,12 @@
+PROZEDUR BzahlenerchnenSumme()
+    zahlen Zahl1, Zahl2, Summe
+
+    AUSGABE "gib erste zahl ein"
+    EINGABE Zahl1
+
+    AUSGABE "gib zweite zahl ein"
+    EINGABE Zahl2
+
+    Summe := Zahl1 + Zahl2
+    AUSGABE "Die summe der zahlen ist:",Summe  
+ENDPROZUDER 
