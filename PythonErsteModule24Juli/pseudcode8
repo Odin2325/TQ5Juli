@@ -1,0 +1,11 @@
+PROZEDURE umfangRechtecks()
+     Zahlen Lange, Breit, Gebiet
+     AUSGABE "gib lange des RechtAngel:"
+     EINGABE Lange
+     AUSGABE "gib Breit des RechtAngel"
+     EINGABE Breit
+     Gebiet:= 2*(Lange * Breit)
+     AUSGABE "DAS  PRIMETER DES RECHTANGL IST:", GEBIET
+ENDPROZUDER
+
+
