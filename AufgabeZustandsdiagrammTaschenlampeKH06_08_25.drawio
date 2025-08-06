@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+  <diagram name="Seite-1" id="L4bUxuAsf7dDMZDWto3_">
+    <mxGraphModel dx="1124" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-38" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="205" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="WBn_VWO-27Ut0OFVjwEX-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-43" value="Lampe ausgeschaltet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-39">
+          <mxGeometry x="-0.1559" y="1" relative="1" as="geometry">
+            <mxPoint x="59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-40" value="Knopf wird betätigt" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-41" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="WBn_VWO-27Ut0OFVjwEX-40" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-44" value="Lampe eingeschaltet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-41">
+          <mxGeometry x="-0.1559" y="1" relative="1" as="geometry">
+            <mxPoint x="54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-42" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="205" y="530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-45" value="Knopf wird erneut betätigt" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="WBn_VWO-27Ut0OFVjwEX-45" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-47" value="Lampe im Blink-Modus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-46">
+          <mxGeometry x="-0.1008" y="-1" relative="1" as="geometry">
+            <mxPoint x="61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-48" value="Knopf wird erneut betätigt" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="WBn_VWO-27Ut0OFVjwEX-48" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-50" value="Lampe im Nachtlicht-Modus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-49">
+          <mxGeometry x="-0.1559" relative="1" as="geometry">
+            <mxPoint x="75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-51" value="Knopf wird erneut betätigt" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="WBn_VWO-27Ut0OFVjwEX-51" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-53" value="Lampe ausgeschaltet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-52">
+          <mxGeometry x="-0.0733" y="1" relative="1" as="geometry">
+            <mxPoint x="54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-54" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WBn_VWO-27Ut0OFVjwEX-40" target="WBn_VWO-27Ut0OFVjwEX-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="150.26" as="targetPoint" />
+            <mxPoint x="305" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-58" value="Batterie schwach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-54">
+          <mxGeometry x="-0.198" y="1" relative="1" as="geometry">
+            <mxPoint x="-111" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-56" value="Signalleuchte blinkt gelb" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="505" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="WBn_VWO-27Ut0OFVjwEX-56" parent="1" target="WBn_VWO-27Ut0OFVjwEX-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-66" value="Batterie leer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-57">
+          <mxGeometry x="-0.4304" y="1" relative="1" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="250" as="targetPoint" />
+            <mxPoint x="280" y="249.60000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-60" value="Batterie schwach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-59">
+          <mxGeometry x="-0.198" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-61" value="Signalleuchte blinkt 3x rot" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="355" y="525" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WBn_VWO-27Ut0OFVjwEX-61" target="WBn_VWO-27Ut0OFVjwEX-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="530" as="targetPoint" />
+            <mxPoint x="445" y="565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-65" value="Lampe ausgeschaltet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-62">
+          <mxGeometry x="0.0294" relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-63" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="350" as="targetPoint" />
+            <mxPoint x="280" y="349.6" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-64" value="Batterie schwach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-63">
+          <mxGeometry x="-0.198" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-67" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WBn_VWO-27Ut0OFVjwEX-51" target="WBn_VWO-27Ut0OFVjwEX-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="449.86" as="targetPoint" />
+            <mxPoint x="305" y="449.6" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBn_VWO-27Ut0OFVjwEX-68" value="Batterie schwach" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WBn_VWO-27Ut0OFVjwEX-67">
+          <mxGeometry x="-0.198" y="1" relative="1" as="geometry">
+            <mxPoint x="25" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
