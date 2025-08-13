@@ -1,0 +1,9 @@
+mein_Lieblingsauto = "BMW M3"
+mein_Lieblingssport = "Basketball"
+mein_Lieblingsgetränk = "Eistee"
+
+# (f-string)
+satz = f"Wenn nur {mein_Lieblingsauto} {mein_Lieblingsgetränk} als Kraftstoff verwenden könnte, um {mein_Lieblingssport} auszuüben. Dann wäre ich zufrieden!"
+
+print(satz)
+print(satz[6:17])
