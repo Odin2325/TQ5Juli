@@ -11,4 +11,4 @@ resultat = f'Wenn nur mein {mein_Lieblingsauto} {mein_Lieblingsgetraenk} als Kra
 print(resultat)
 
 # 2. Geben Sie nun diese Zeichenfolge unter Verwendung von eckigen Klammern vom 6. bis 16. inklusive Index aus.
-print('Das mit dem Index habe ich nicht verstanden.')
+print(resultat[6:17])
