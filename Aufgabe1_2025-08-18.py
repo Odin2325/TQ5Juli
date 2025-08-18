@@ -9,15 +9,15 @@
 # * Hinweis: ihr habt slices und indizes!
 # * Hinweis2: Man darf negative Zahlen als index eingeben.
 
-string = input("Bitte geben Sie einen String ein: ")
+eingabe = input("Bitte geben Sie einen String ein: ")
 
-if string[-1] == "." or string[-2:] == "r!":
+if eingabe[-1] == "." or eingabe[-2:] == "r!":
     ends_correctly = True
     print(ends_correctly)
-elif string[0:5] == "Hallo":
+elif eingabe[0:5] == "Hallo":
     starts_correctly = True
     print(starts_correctly)
 else:
     ends_correctly = False
     starts_correctly = False
-    print = 'False'
+    print("False")
