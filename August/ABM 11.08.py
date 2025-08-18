@@ -1,5 +1,0 @@
-
-# Übung
-
-
-print('Hello World')
