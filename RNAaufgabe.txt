@@ -1,0 +1,64 @@
+5.
+
+Übersetzen von RNA-Sequenzen in Proteine.
+
+RNA kann in drei Nukleotidsequenzen, die Codons, zerlegt und dann wie folgt in
+
+ein Polypeptid übersetzt werden:
+
+RNA: "AUGUUUUCU" => wird übersetzt in
+
+Codons: "AUG", "UUU", "UCU" => die zu einem Polypeptid mit der folgenden
+
+Sequenz werden => Protein: "Methionin", "Phenylalanin", "Serin"
+
+Es gibt 64 Codons, die wiederum 20 Aminosäuren entsprechen; alle
+
+Codon-Sequenzen und die daraus resultierenden Aminosäuren sind jedoch für
+
+diese Übung nicht wichtig. Wenn es für ein Codon funktioniert, sollte das
+
+Programm auch für alle anderen Codons funktionieren. Es steht Ihnen jedoch frei,
+
+die Liste in der Testsuite zu erweitern, um alle Codons einzubeziehen.
+
+Es gibt auch drei terminierende Codons (auch als "STOP"-Codons bekannt); wenn
+
+eines dieser Codons (vom Ribosom) angetroffen wird, endet die gesamte
+
+Übersetzung und das Protein wird abgebrochen.
+
+Alle nachfolgenden Codons werden ignoriert, etwa so:
+
+RNA: "AUGUUUUCUUAAAUG" =>
+
+Codons: "AUG", "UUU", "UCU", "UAA", "AUG" =>
+
+Protein: "Methionin", "Phenylalanin", "Serin"
+
+Beachten Sie, dass das Stoppcodon "UAA" die Übersetzung beendet und das letzte
+
+Methionin nicht in die Proteinsequenz übersetzt wird.
+
+Nachstehend sind die Codons und die daraus resultierenden Aminosäuren
+
+aufgeführt, die für die Übung benötigt werden:
+
+Codon Protein
+
+AUG Methionin
+
+UUU, UUC Phenylalanin
+
+UUA, UUG Leucin
+
+UCU, UCC, UCA, UCG Serin
+
+UAU, UAC Tyrosin
+
+UGU, UGC Cystein
+
+UGG Tryptophan
+
+UAA, UAG, UGA STOP
+ 
