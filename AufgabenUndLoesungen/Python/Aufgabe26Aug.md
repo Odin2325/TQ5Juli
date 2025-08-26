@@ -1,5 +1,7 @@
 # Aufgabe: Zahlen in Römische Zahlen umwandeln
 
+Schreibe erstmal pseudocode, dann Struktogramm erstellen vom pseudocode, dann in programmcode umsetzten.
+
 Schreibe eine Funktion, die normale Zahlen in **Römische Zahlen**
 umwandelt.
 
