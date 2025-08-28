@@ -1,5 +1,6 @@
 from random import randint
 from datetime import datetime
+from kunde import Kunde
 
 class Bankkonto:
     def __init__(self, kontoinhaber:Kunde, startguthaben=0):
