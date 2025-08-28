@@ -24,3 +24,5 @@ class Kunde:
 
     def Kundendetails(self):
         print(f"Name: {self.name}\n Alter {self.alter}\nAdresse: {self.adresse}\nTelefonnummer: {self.telefonnummer}\n E-Mail: {self.email}\n Geschlecht: {self.geschlecht}")
+
+kunde1 = Kunde("Paul","Atreides",datetime.date(2000,5,15),"Wüstenplanet Arrakis","0123456789","PA@so.wa")

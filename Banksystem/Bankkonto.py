@@ -1,8 +1,9 @@
-
+from datetime import datetime
+import Kunde
 
 
 class Bankkonto:
-    def __init__(self,kontonummer,inhaber,saldo = 0):
+    def __init__(self, kontonummer, inhaber:Kunde, saldo = 0):
         self.kontonummer = kontonummer
         self.inhaber = inhaber
         self.saldo = saldo
@@ -39,5 +40,5 @@ class Bankkonto:
 
 
 
-konto1 = Bankkonto("40050012","Gottimperator",1200.00)
-konto2 = Bankkonto("40050013","Leto II",2500.00)
+konto1 = Bankkonto("40050012",kunde1,1200.00)
+#konto2 = Bankkonto("40050013","Leto II",2500.00)
