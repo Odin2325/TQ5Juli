@@ -23,7 +23,7 @@ class Bankkonto:
         print('Konto Details')
         print('=======================================')
         print(f'Kontoinhaber: {self.kontoinhaber.detail_kunde(False)}')
-        print(f'Bank: {self.bank}\nRegion: {self.region}')
+        print(f'Bank: {self.bank.}\n  Region: {self.region}')
         print(f'Kontonummer: {self.kontonummer}\nKontostand: {self.kontostand}')
         print('=======================================')
 

@@ -7,5 +7,5 @@ class bank:
         if  alle_anzeige:
             print({f"{self.name},{self.region}"})
         else:
-            return f'{self.name}, {self.region}' 
+            return f' {self.region}' 
         
