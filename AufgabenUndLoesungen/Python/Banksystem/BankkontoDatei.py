@@ -1,10 +1,10 @@
 from random import randint
 from datetime import datetime
+from KundeDatei import Kunde
 
 class Bankkonto:
-    def __init__(self, kontoinhaber, adresse, startguthaben=0):
+    def __init__(self, kontoinhaber:Kunde, startguthaben=0):
         self.kontoinhaber = kontoinhaber
-        self.adresse = adresse
         self.kontostand = startguthaben
         self.bank = 'Deutsche Bank'
         self.region = 'Bayern'
@@ -22,7 +22,7 @@ class Bankkonto:
     def details(self):
         print('Konto Details')
         print('=======================================')
-        print(f'Kontoinhaber: {self.kontoinhaber}\nAdresse: {self.adresse}')
+        print(f'Kontoinhaber: {self.kontoinhaber.detail_kunde(False)}')
         print(f'Bank: {self.bank}\nRegion: {self.region}')
         print(f'Kontonummer: {self.kontonummer}\nKontostand: {self.kontostand}')
         print('=======================================')
