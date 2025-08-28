@@ -1,3 +1,6 @@
+
+
+
 class Bankkonto:
     def __init__(self,kontonummer,inhaber,saldo = 0):
         self.kontonummer = kontonummer
