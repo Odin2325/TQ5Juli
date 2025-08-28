@@ -1,8 +1,8 @@
 from datetime import datetime
-import Kunde
+from Kundendatei import Kundenklasse as Kunde
 
 
-class Bankkonto:
+class Bankkontoklasse:
     def __init__(self, kontonummer, inhaber:Kunde, saldo = 0):
         self.kontonummer = kontonummer
         self.inhaber = inhaber
@@ -38,7 +38,9 @@ class Bankkonto:
         for eintrag in self.transaktionshistorie:
             print(eintrag)
 
+kunde1 = Kunde("Paul", "Atreides", "01.01.2000", "Wüstenplanet Arrakis", "0123456789", "PA@so.wa")
 
+konto1 = Bankkontoklasse("40050012",kunde1.Kundendetails,1200.00)
+#konto2 = Bankkonto("40050013","Leto II",2500.00))
 
-konto1 = Bankkonto("40050012",kunde1,1200.00)
-#konto2 = Bankkonto("40050013","Leto II",2500.00)
+konto1.konto_details()
