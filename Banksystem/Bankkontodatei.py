@@ -1,4 +1,5 @@
 from datetime import datetime
+from random import randint
 from Kundendatei import Kundenklasse as Kunde
 
 
@@ -6,12 +7,18 @@ class Bankkontoklasse:
     def __init__(self, kontonummer, inhaber:Kunde, saldo = 0):
         self.kontonummer = kontonummer
         self.inhaber = inhaber
+        self.pin = Bankkontoklasse.pin_generator()
         self.saldo = saldo
         self.dispo = 500.00
-        self.zinsen = 0.15
         self.bank = "Commerzbank"
-        self.region = "Flensburg"
         self.transaktionshistorie = []
+
+    def pin_generator():
+        neuer_pin = ''
+        for i in range(0,4):
+            neuer_pin += str(randint(0,9))
+        print('Das neue Pin ist:',neuer_pin)
+        return neuer_pin
     
 
     def einzahlen(self,betrag):
