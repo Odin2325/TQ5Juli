@@ -15,6 +15,5 @@ class Kunde:
             print(f'Telefonnummer: {self.telefonnumer}')
             print('Alter:',self.alter)
             print('==================================')
-            return None
         else:
             return f'{self.vorname} {self.nachname} {self.email}'
