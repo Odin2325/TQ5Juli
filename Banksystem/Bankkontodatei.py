@@ -2,13 +2,12 @@ import datetime
 import random
 from random import randint
 from Kundendatei import Kundenklasse as Kunde
-#from Bankdatei import Bankklasse as Bank
+from Bankdatei import Bankklasse as Bank
 
 class Bankkontoklasse:
-    def __init__(self, kontonummer, inhaber:Kunde, saldo = 0):
-        self.kontonummer = kontonummer
+    def __init__(self, inhaber:Kunde, saldo = 0):
         self.inhaber = inhaber
-        self.iban = f"DE65 {self.bank.BLZ}{self.kontonummer}"
+        self.iban = f"DE65 {BLZ:Bank}{self.bank.kontonummer}"
         self.pin = Bankkontoklasse.pin_generator()
         self.saldo = saldo
         self.dispo = 500.00
