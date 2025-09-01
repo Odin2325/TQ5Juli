@@ -18,7 +18,6 @@ class Bankkonto:
         return neues_pin
 
     def details(self):
-        print('Konto Details')
         print('=======================================')
         print(f'Kontoinhaber: {self.kontoinhaber.detail_kunde(False)}')
         print(f'Kontonummer: {self.kontonummer}\nKontostand: {self.kontostand}')
@@ -29,7 +28,7 @@ class Bankkonto:
             print('0 und Negative Betraege sind nicht erlaubt.')
             return False
         self.kontostand += betrag
-        self.transaktions_historie.append(('einzahlen',betrag,self.kontostand,datetime.now()))
+        self.transaktions_historie.append(('Einzahlen',betrag,self.kontostand,datetime.now()))
         print('Einzahlung erfolgreich.')
         return True
         
@@ -38,10 +37,18 @@ class Bankkonto:
             print('0 und Negative Betraege sind nicht erlaubt.')
             return False
         self.kontostand -= betrag
-        self.transaktions_historie.append(('auszahlen',betrag,self.kontostand,datetime.now()))
+        self.transaktions_historie.append(('Auszahlen',betrag,self.kontostand,datetime.now()))
         print('Auszahlung erfolgreich')
         return True
     
+    def einkommende_ueberweisung(self, betrag, kontonummer):
+        self.kontostand += betrag
+        self.transaktions_historie.append((f'Einkommende Ueberweisung von: {kontonummer}',betrag,self.kontostand,datetime.now()))
+    
+    def ausgehende_ueberweisung(self, betrag, kontonummer):
+        self.kontostand -= betrag
+        self.transaktions_historie.append((f'Ausgehende Ueberweisung an: {kontonummer}',betrag,self.kontostand,datetime.now()))
+
     def kontostand_ansehen(self):
         print('Dein Aktueller Kontostand betraegt:',self.kontostand)
 
