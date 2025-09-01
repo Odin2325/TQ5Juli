@@ -1,14 +1,12 @@
+from KundeDatei import Kunde
 from random import randint
 from datetime import datetime
-from KundeDatei import Kunde
 
 class Bankkonto:
-    def __init__(self, kontoinhaber:Kunde, startguthaben=0):
+    def __init__(self, kontoinhaber:Kunde, kontonummer, startguthaben=0):
         self.kontoinhaber = kontoinhaber
         self.kontostand = startguthaben
-        self.bank = 'Deutsche Bank'
-        self.region = 'Bayern'
-        self.kontonummer = 'DE12346789012'
+        self.kontonummer = kontonummer
         self.pin = Bankkonto.pin_generator()
         self.transaktions_historie = []
 
@@ -23,7 +21,6 @@ class Bankkonto:
         print('Konto Details')
         print('=======================================')
         print(f'Kontoinhaber: {self.kontoinhaber.detail_kunde(False)}')
-        print(f'Bank: {self.bank}\nRegion: {self.region}')
         print(f'Kontonummer: {self.kontonummer}\nKontostand: {self.kontostand}')
         print('=======================================')
 
