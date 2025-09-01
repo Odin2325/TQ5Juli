@@ -61,6 +61,7 @@ class Bank:
 
         neuer_bankkonto = Bankkonto(kunde,tupel[1])
         self.kontos.append(neuer_bankkonto)
+        return True
 
     #5-stelliges Kontonummer
     def freies_kontonummer_generieren(self):
