@@ -1,7 +1,7 @@
 HA 03.09. Texte ausgeben
 
 Frage1:
-Warum Können /wollen etwa 95% der FISI die ich in meinen Praktikas kennengelernt habe, nicht coden?
+Warum Können/Wollen etwa 95% der FISI die ich in meinen Praktikas kennengelernt habe, nicht coden?
 
 Frage2:
 Wie unterscheidet sich die schreibweisse von pythen code zu Scripten in PowerShell?

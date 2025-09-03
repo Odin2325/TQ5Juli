@@ -1,10 +1,7 @@
-def PythonFragentxt_lesen(PythonFragen):
-    try:
-        with open(PythonFragen, 'r', encoding='utf-8') as datei:
-            inhalt = datei.read()
-            print("Inhalt der Datei:")
-            print(inhalt)
-    except FileNotFoundError:
-        print(f"Die Datei '{dateipfad}' wurde nicht gefunden.")
-    except Exception as e:
-        print(f"Ein Fehler ist aufgetreten: {e}")
+def PythonFragentxt_lesen():
+    print("Das sind meine Fragen: \n")    
+    fragen = open("./September/PythonFragen.txt", "r", encoding="utf-8")               #r Bedeutet in diese Methode 'lese' modus
+    print(fragen.read())
+    fragen.close()
+
+PythonFragentxt_lesen()
