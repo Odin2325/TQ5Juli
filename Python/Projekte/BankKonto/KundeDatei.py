@@ -7,9 +7,9 @@ class Kunde:
         self.email = email
         self.alter = alter
     
-    def detail_kunde(self,formatier_anzeige):
+    def detail_kunde(self,formatier_anzeige=True):
         if formatier_anzeige:
-            print('===========KundeDetails===========')
+            print('==================================')
             print(f'Name: {self.vorname} {self.nachname}')
             print(f'Adresse: {self.adresse}. Email: {self.email}')
             print(f'Telefonnummer: {self.telefonnumer}')
