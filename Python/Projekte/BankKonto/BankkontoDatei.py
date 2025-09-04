@@ -51,3 +51,34 @@ class Bankkonto:
         for eintrag in self.transaktions_historie:
             print(eintrag)
         print('==========EndeHistorie==========')
+
+
+    def transaktion(self, anderen_konto: "Bankkonto", betrag: float) -> bool:
+        """
+        Führt eine Transaktion von diesem Konto zu einem anderen Bankkonto durch.
+
+        Args:
+            anderen_konto (Bankkonto): Das Zielkonto.
+            betrag (float): Der Betrag, der überwiesen werden soll.
+
+        Returns:
+            bool: True, wenn die Transaktion erfolgreich war, sonst False.
+        """
+        if betrag <= 0:
+            print("❌ Ungültiger Betrag. Nur positive Werte erlaubt.")
+            return False
+
+        if self.kontostand < betrag:
+            print("❌ Nicht genügend Guthaben für die Transaktion.")
+            return False
+
+        # Geld abbuchen
+        self.kontostand -= betrag
+        self.transaktions_historie.append(("überweisung_ab", betrag, self.kontostand, datetime.now()))
+
+        # Geld gutschreiben
+        anderen_konto.kontostand += betrag
+        anderen_konto.transaktions_historie.append(("überweisung_zu", betrag, anderen_konto.kontostand, datetime.now()))
+
+        print(f"✅ Erfolgreich {betrag} EUR an Konto {anderen_konto.kontonummer} überwiesen.")
+        return True

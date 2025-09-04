@@ -75,3 +75,75 @@ class Bank:
         for i in range(0,5):
             resultat += str(randint(0,9))
         return resultat
+    
+    def bank_details(self) -> str:
+        """
+       -- Gibt allgemeine Informationen über die Bank zurück
+        --(Marketing/Werbung – keine vertraulichen Kundendetails).
+
+        Returns:
+            str: Übersicht über Bankname, Standort, Anzahl Kunden und Konten.
+        """
+        return (
+            f" Willkommen bei {self.name}!\n"
+            f" Hauptstandort: {self.hauptstandort}, {self.region}, {self.land}\n"
+            f" Kundenanzahl: {len(self.kunden)}\n"
+            f" Anzahl Konten: {len(self.kontos)}\n"
+            f" Ihre zuverlässige Bank seit 1990!"
+        )
+
+    def konto_infos(self):
+        """
+        Gibt Informationen zu allen existierenden Bankkonten aus.
+        Nutzt die details()-Methode von Bankkonto.
+        """
+        if not self.kontos:
+            print("Es sind aktuell keine Bankkonten vorhanden.")
+            return
+        for konto in self.kontos:
+            konto.details()
+
+    def kunden_infos(self):
+        """
+        Gibt Informationen zu allen existierenden Kunden aus.
+        Nutzt die detail_kunde(True)-Methode von Kunde.
+        """
+        if not self.kunden:
+            print("Es sind aktuell keine Kunden vorhanden.")
+            return
+        for kunde in self.kunden:
+            kunde.detail_kunde(True)
+
+   
+   
+   
+   
+    def transaktion(self, von_konto_nummer: str, zu_konto_nummer: str, betrag: float) -> bool:
+        """
+        Führt eine Transaktion zwischen zwei Bankkonten durch,
+        wenn beide in der Bank existieren.
+
+        Args:
+            von_konto_nummer (str): Kontonummer des Senders.
+            zu_konto_nummer (str): Kontonummer des Empfängers.
+            betrag (float): Betrag der Transaktion.
+
+        Returns:
+            bool: True, wenn erfolgreich, False sonst.
+        """
+        von_konto = None
+        zu_konto = None
+
+        # Konten suchen
+        for konto in self.kontos:
+            if konto.kontonummer == von_konto_nummer:
+                von_konto = konto
+            if konto.kontonummer == zu_konto_nummer:
+                zu_konto = konto
+
+        if not von_konto or not zu_konto:
+            print("❌ Eines oder beide Konten existieren nicht.")
+            return False
+
+        # Transaktion ausführen
+        return von_konto.transaktion(zu_konto, betrag)
