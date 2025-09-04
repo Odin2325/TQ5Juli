@@ -1,5 +1,5 @@
 from random import randint
-from KundeDatei import Kunde
+from Kunde import Kunde
 from BankkontoDatei import Bankkonto as bk
 #import socketserver as sks
 #as bedeutet wir geben irgendetwas einen anderen Namen
