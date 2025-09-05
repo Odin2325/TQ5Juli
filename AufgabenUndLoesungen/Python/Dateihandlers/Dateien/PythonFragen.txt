@@ -1,0 +1,2 @@
+Was ist eine lambda methode? Was sind anonyme funktionen?
+Was ist abstraction?

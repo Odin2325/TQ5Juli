@@ -1,0 +1,310 @@
+order_id,customer_name,product_name,quantity,unit_price,status
+1001,Ulla,Cappuccino,1,3.20,paid
+1001,Ulla,Hot Chocolate,1,3.00,paid
+1001,Ulla,Americano,4,2.80,paid
+1002,Bob,Cappuccino,1,3.20,paid
+1002,Bob,Tea,2,2.00,paid
+1003,Wiebke,Cappuccino,1,3.20,paid
+1003,Wiebke,Bagel,2,2.40,paid
+1003,Wiebke,Mocha,4,3.80,paid
+1003,Wiebke,Muffin,3,2.50,paid
+1004,Henry,Espresso,1,2.20,paid
+1004,Henry,Hot Chocolate,3,3.00,paid
+1004,Henry,Muffin,3,2.50,paid
+1005,Tom,Bagel,1,2.40,paid
+1006,Max,Hot Chocolate,1,3.00,paid
+1006,Max,Croissant,1,2.80,paid
+1006,Max,Cappuccino,2,3.20,paid
+1007,Yann,Cappuccino,1,3.20,paid
+1008,Max,Americano,2,2.80,paid
+1008,Max,Croissant,3,2.80,paid
+1008,Max,Tea,1,2.00,paid
+1009,Tom,Americano,4,2.80,paid
+1009,Tom,Bagel,3,2.40,paid
+1010,Ulla,Croissant,2,2.80,paid
+1010,Ulla,Latte,1,3.50,paid
+1011,Zoe,Espresso,2,2.20,paid
+1011,Zoe,Cappuccino,4,3.20,paid
+1011,Zoe,Croissant,4,2.80,paid
+1012,Ulla,Americano,4,2.80,paid
+1012,Ulla,Cappuccino,4,3.20,paid
+1012,Ulla,Mocha,3,3.80,paid
+1013,Gina,Tea,1,2.00,cancelled
+1013,Gina,Bagel,1,2.40,cancelled
+1014,Dana,Muffin,4,2.50,paid
+1014,Dana,Espresso,4,2.20,paid
+1015,Tom,Tea,3,2.00,cancelled
+1015,Tom,Latte,3,3.50,cancelled
+1015,Tom,Espresso,1,2.20,cancelled
+1016,Iris,Latte,1,3.50,paid
+1016,Iris,Mocha,3,3.80,paid
+1016,Iris,Americano,2,2.80,paid
+1016,Iris,Tea,2,2.00,paid
+1017,Lina,Hot Chocolate,3,3.00,paid
+1018,Paula,Mocha,2,3.80,paid
+1018,Paula,Cappuccino,1,3.20,paid
+1018,Paula,Latte,1,3.50,paid
+1019,Xenia,Tea,2,2.00,paid
+1020,Chris,Mocha,4,3.80,paid
+1020,Chris,Tea,2,2.00,paid
+1021,Ria,Mocha,3,3.80,paid
+1021,Ria,Muffin,4,2.50,paid
+1022,Quinn,Cappuccino,3,3.20,paid
+1022,Quinn,Espresso,1,2.20,paid
+1023,Sven,Latte,1,3.50,paid
+1023,Sven,Espresso,2,2.20,paid
+1024,Clara,Espresso,3,2.20,cancelled
+1024,Clara,Tea,4,2.00,cancelled
+1024,Clara,Cappuccino,2,3.20,cancelled
+1025,Ria,Cappuccino,1,3.20,paid
+1025,Ria,Bagel,1,2.40,paid
+1025,Ria,Muffin,4,2.50,paid
+1025,Ria,Espresso,3,2.20,paid
+1026,Nora,Espresso,1,2.20,paid
+1027,Max,Cappuccino,2,3.20,paid
+1028,Fred,Muffin,3,2.50,paid
+1028,Fred,Americano,4,2.80,paid
+1029,Gina,Bagel,1,2.40,cancelled
+1030,Bob,Espresso,2,2.20,paid
+1031,Eva,Cappuccino,4,3.20,paid
+1031,Eva,Muffin,1,2.50,paid
+1031,Eva,Latte,4,3.50,paid
+1031,Eva,Espresso,3,2.20,paid
+1032,Zoe,Muffin,2,2.50,paid
+1032,Zoe,Tea,2,2.00,paid
+1032,Zoe,Bagel,3,2.40,paid
+1033,Fred,Croissant,1,2.80,cancelled
+1034,Bob,Latte,1,3.50,paid
+1034,Bob,Tea,2,2.00,paid
+1035,Clara,Muffin,2,2.50,paid
+1035,Clara,Espresso,1,2.20,paid
+1036,Tom,Mocha,2,3.80,paid
+1036,Tom,Cappuccino,3,3.20,paid
+1036,Tom,Croissant,4,2.80,paid
+1037,Chris,Bagel,1,2.40,paid
+1037,Chris,Croissant,4,2.80,paid
+1037,Chris,Espresso,1,2.20,paid
+1038,Clara,Americano,2,2.80,paid
+1038,Clara,Croissant,3,2.80,paid
+1038,Clara,Espresso,3,2.20,paid
+1039,Eva,Hot Chocolate,3,3.00,paid
+1039,Eva,Tea,1,2.00,paid
+1039,Eva,Latte,2,3.50,paid
+1040,Henry,Tea,2,2.00,paid
+1041,Henry,Croissant,3,2.80,paid
+1041,Henry,Cappuccino,4,3.20,paid
+1042,Henry,Espresso,4,2.20,cancelled
+1043,Henry,Americano,4,2.80,paid
+1043,Henry,Mocha,4,3.80,paid
+1043,Henry,Hot Chocolate,1,3.00,paid
+1044,Dana,Tea,3,2.00,paid
+1044,Dana,Latte,2,3.50,paid
+1045,Nora,Croissant,2,2.80,paid
+1045,Nora,Latte,2,3.50,paid
+1045,Nora,Hot Chocolate,1,3.00,paid
+1046,Lina,Hot Chocolate,2,3.00,paid
+1046,Lina,Americano,2,2.80,paid
+1046,Lina,Cappuccino,4,3.20,paid
+1046,Lina,Muffin,1,2.50,paid
+1047,Eva,Muffin,2,2.50,paid
+1047,Eva,Cappuccino,1,3.20,paid
+1047,Eva,Mocha,4,3.80,paid
+1048,Bob,Cappuccino,3,3.20,cancelled
+1048,Bob,Bagel,3,2.40,cancelled
+1049,Zoe,Latte,4,3.50,cancelled
+1049,Zoe,Cappuccino,3,3.20,cancelled
+1050,Henry,Croissant,3,2.80,cancelled
+1050,Henry,Tea,1,2.00,cancelled
+1050,Henry,Muffin,1,2.50,cancelled
+1051,Henry,Latte,3,3.50,paid
+1051,Henry,Espresso,3,2.20,paid
+1051,Henry,Muffin,4,2.50,paid
+1052,Tom,Muffin,2,2.50,cancelled
+1053,Henry,Latte,4,3.50,paid
+1053,Henry,Tea,1,2.00,paid
+1053,Henry,Cappuccino,3,3.20,paid
+1053,Henry,Americano,3,2.80,paid
+1054,Vince,Tea,3,2.00,paid
+1054,Vince,Mocha,4,3.80,paid
+1054,Vince,Muffin,3,2.50,paid
+1055,Ria,Muffin,1,2.50,paid
+1055,Ria,Americano,3,2.80,paid
+1055,Ria,Mocha,3,3.80,paid
+1055,Ria,Cappuccino,2,3.20,paid
+1056,Nora,Bagel,2,2.40,paid
+1056,Nora,Hot Chocolate,4,3.00,paid
+1056,Nora,Tea,2,2.00,paid
+1057,Vince,Espresso,2,2.20,paid
+1057,Vince,Cappuccino,2,3.20,paid
+1057,Vince,Mocha,2,3.80,paid
+1058,Alice,Hot Chocolate,2,3.00,paid
+1058,Alice,Espresso,4,2.20,paid
+1058,Alice,Bagel,4,2.40,paid
+1058,Alice,Cappuccino,4,3.20,paid
+1059,Gina,Espresso,4,2.20,paid
+1060,Gina,Latte,1,3.50,paid
+1060,Gina,Tea,4,2.00,paid
+1060,Gina,Cappuccino,2,3.20,paid
+1060,Gina,Muffin,4,2.50,paid
+1061,Vince,Bagel,4,2.40,paid
+1061,Vince,Tea,2,2.00,paid
+1061,Vince,Muffin,4,2.50,paid
+1062,Oskar,Mocha,4,3.80,paid
+1062,Oskar,Tea,2,2.00,paid
+1063,Henry,Cappuccino,3,3.20,paid
+1063,Henry,Mocha,1,3.80,paid
+1063,Henry,Croissant,2,2.80,paid
+1064,Chris,Cappuccino,4,3.20,paid
+1064,Chris,Espresso,4,2.20,paid
+1065,Jakob,Latte,1,3.50,paid
+1065,Jakob,Cappuccino,4,3.20,paid
+1065,Jakob,Muffin,4,2.50,paid
+1065,Jakob,Tea,1,2.00,paid
+1066,Lina,Muffin,2,2.50,paid
+1066,Lina,Tea,3,2.00,paid
+1066,Lina,Cappuccino,4,3.20,paid
+1066,Lina,Bagel,4,2.40,paid
+1067,Alice,Americano,1,2.80,paid
+1067,Alice,Bagel,4,2.40,paid
+1067,Alice,Hot Chocolate,1,3.00,paid
+1067,Alice,Mocha,1,3.80,paid
+1068,Ulla,Americano,3,2.80,paid
+1068,Ulla,Latte,2,3.50,paid
+1068,Ulla,Mocha,4,3.80,paid
+1068,Ulla,Cappuccino,3,3.20,paid
+1069,Jakob,Mocha,1,3.80,paid
+1069,Jakob,Muffin,4,2.50,paid
+1069,Jakob,Hot Chocolate,1,3.00,paid
+1069,Jakob,Tea,1,2.00,paid
+1070,Lina,Latte,1,3.50,paid
+1071,Gina,Hot Chocolate,2,3.00,paid
+1072,Gina,Hot Chocolate,2,3.00,paid
+1073,Oskar,Americano,3,2.80,paid
+1073,Oskar,Espresso,1,2.20,paid
+1073,Oskar,Hot Chocolate,1,3.00,paid
+1074,Iris,Muffin,2,2.50,paid
+1074,Iris,Cappuccino,1,3.20,paid
+1074,Iris,Espresso,3,2.20,paid
+1074,Iris,Mocha,1,3.80,paid
+1075,Zoe,Croissant,4,2.80,cancelled
+1076,Vince,Latte,1,3.50,paid
+1076,Vince,Muffin,4,2.50,paid
+1076,Vince,Bagel,3,2.40,paid
+1077,Ulla,Americano,3,2.80,cancelled
+1077,Ulla,Muffin,4,2.50,cancelled
+1077,Ulla,Hot Chocolate,4,3.00,cancelled
+1077,Ulla,Croissant,4,2.80,cancelled
+1078,Xenia,Cappuccino,4,3.20,paid
+1078,Xenia,Espresso,2,2.20,paid
+1078,Xenia,Mocha,4,3.80,paid
+1079,Sven,Croissant,3,2.80,paid
+1079,Sven,Latte,2,3.50,paid
+1079,Sven,Bagel,4,2.40,paid
+1079,Sven,Muffin,2,2.50,paid
+1080,Lina,Mocha,2,3.80,paid
+1080,Lina,Hot Chocolate,1,3.00,paid
+1080,Lina,Latte,2,3.50,paid
+1081,Xenia,Bagel,4,2.40,paid
+1081,Xenia,Hot Chocolate,1,3.00,paid
+1082,Clara,Cappuccino,3,3.20,paid
+1082,Clara,Mocha,4,3.80,paid
+1082,Clara,Croissant,3,2.80,paid
+1082,Clara,Hot Chocolate,3,3.00,paid
+1083,Wiebke,Mocha,2,3.80,paid
+1083,Wiebke,Cappuccino,3,3.20,paid
+1083,Wiebke,Espresso,1,2.20,paid
+1084,Xenia,Cappuccino,4,3.20,paid
+1084,Xenia,Hot Chocolate,3,3.00,paid
+1085,Xenia,Espresso,2,2.20,paid
+1085,Xenia,Cappuccino,3,3.20,paid
+1085,Xenia,Mocha,2,3.80,paid
+1086,Iris,Mocha,1,3.80,paid
+1086,Iris,Latte,3,3.50,paid
+1087,Wiebke,Espresso,4,2.20,cancelled
+1087,Wiebke,Latte,4,3.50,cancelled
+1087,Wiebke,Mocha,3,3.80,cancelled
+1087,Wiebke,Cappuccino,2,3.20,cancelled
+1088,Bob,Espresso,1,2.20,paid
+1088,Bob,Hot Chocolate,1,3.00,paid
+1088,Bob,Muffin,2,2.50,paid
+1088,Bob,Cappuccino,2,3.20,paid
+1089,Zoe,Espresso,4,2.20,paid
+1089,Zoe,Cappuccino,2,3.20,paid
+1089,Zoe,Hot Chocolate,4,3.00,paid
+1090,Oskar,Hot Chocolate,1,3.00,cancelled
+1090,Oskar,Muffin,1,2.50,cancelled
+1090,Oskar,Mocha,2,3.80,cancelled
+1091,Ulla,Americano,2,2.80,paid
+1092,Eva,Latte,4,3.50,paid
+1092,Eva,Muffin,4,2.50,paid
+1093,Iris,Mocha,2,3.80,paid
+1093,Iris,Bagel,3,2.40,paid
+1093,Iris,Espresso,2,2.20,paid
+1094,Nora,Americano,2,2.80,paid
+1094,Nora,Mocha,1,3.80,paid
+1095,Bob,Hot Chocolate,1,3.00,paid
+1095,Bob,Mocha,4,3.80,paid
+1095,Bob,Bagel,3,2.40,paid
+1096,Wiebke,Tea,4,2.00,paid
+1096,Wiebke,Hot Chocolate,1,3.00,paid
+1096,Wiebke,Bagel,1,2.40,paid
+1097,Nora,Latte,1,3.50,paid
+1097,Nora,Espresso,3,2.20,paid
+1097,Nora,Cappuccino,1,3.20,paid
+1098,Yann,Tea,4,2.00,paid
+1098,Yann,Bagel,4,2.40,paid
+1098,Yann,Mocha,1,3.80,paid
+1098,Yann,Espresso,4,2.20,paid
+1099,Lina,Espresso,4,2.20,paid
+1099,Lina,Americano,4,2.80,paid
+1099,Lina,Croissant,3,2.80,paid
+1100,Vince,Bagel,1,2.40,cancelled
+1101,Jakob,Muffin,1,2.50,paid
+1102,Vince,Muffin,3,2.50,cancelled
+1102,Vince,Latte,4,3.50,cancelled
+1102,Vince,Cappuccino,4,3.20,cancelled
+1102,Vince,Mocha,1,3.80,cancelled
+1103,Fred,Mocha,4,3.80,paid
+1103,Fred,Bagel,1,2.40,paid
+1104,Alice,Americano,1,2.80,cancelled
+1104,Alice,Mocha,4,3.80,cancelled
+1105,Clara,Bagel,1,2.40,paid
+1106,Ulla,Mocha,4,3.80,paid
+1106,Ulla,Tea,4,2.00,paid
+1106,Ulla,Hot Chocolate,2,3.00,paid
+1106,Ulla,Cappuccino,4,3.20,paid
+1107,Ria,Hot Chocolate,2,3.00,paid
+1107,Ria,Tea,1,2.00,paid
+1108,Henry,Croissant,1,2.80,paid
+1108,Henry,Tea,3,2.00,paid
+1108,Henry,Mocha,3,3.80,paid
+1108,Henry,Muffin,4,2.50,paid
+1109,Chris,Croissant,3,2.80,paid
+1109,Chris,Hot Chocolate,2,3.00,paid
+1109,Chris,Muffin,2,2.50,paid
+1109,Chris,Cappuccino,4,3.20,paid
+1110,Gina,Latte,4,3.50,cancelled
+1110,Gina,Croissant,4,2.80,cancelled
+1110,Gina,Bagel,2,2.40,cancelled
+1110,Gina,Tea,4,2.00,cancelled
+1111,Bob,Espresso,4,2.20,paid
+1111,Bob,Bagel,1,2.40,paid
+1111,Bob,Hot Chocolate,2,3.00,paid
+1112,Nora,Espresso,3,2.20,cancelled
+1112,Nora,Bagel,3,2.40,cancelled
+1113,Tom,Croissant,4,2.80,paid
+1114,Jakob,Tea,3,2.00,paid
+1114,Jakob,Latte,2,3.50,paid
+1114,Jakob,Espresso,1,2.20,paid
+1114,Jakob,Bagel,4,2.40,paid
+1115,Dana,Bagel,2,2.40,paid
+1116,Wiebke,Latte,3,3.50,paid
+1117,Zoe,Croissant,2,2.80,paid
+1117,Zoe,Muffin,4,2.50,paid
+1117,Zoe,Americano,2,2.80,paid
+1118,Eva,Hot Chocolate,2,3.00,paid
+1118,Eva,Cappuccino,2,3.20,paid
+1118,Eva,Bagel,4,2.40,paid
+1118,Eva,Mocha,3,3.80,paid
+1119,Oskar,Bagel,3,2.40,paid
+1120,Vince,Bagel,3,2.40,paid
