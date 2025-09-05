@@ -1,4 +1,4 @@
-# 🖥️ Python `os` Modul Übungen (Systemadministrator Simulation)
+# 🖥️ Python `subprocess` Modul Übungen (Systemadministrator Simulation)
 
 ## Einfache Aufgaben
 
