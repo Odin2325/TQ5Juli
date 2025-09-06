@@ -1,0 +1,22 @@
+Program Name                                                                                                                 | Version | Publisher | Install Location
+-------------------------------------------------------------------------------------------------------------------------------------
+Git`t2.50.1`tThe Git Development Community`tC:\Program Files\Git\                                                            |  |  | 
+GitHub Desktop`t3.5.2`tGitHub, Inc.`tC:\Users\mytq\AppData\Local\GitHubDesktop                                               |  |  | 
+Microsoft Visual C++ 2022 X64 Additional Runtime - 14.36.32532`t14.36.32532`tMicrosoft Corporation`t                         |  |  | 
+Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.36.32532`t14.36.32532`tMicrosoft Corporation`t                            |  |  | 
+Microsoft Visual Studio Code (User)`t1.103.2`tMicrosoft Corporation`tC:\Users\mytq\AppData\Local\Programs\Microsoft VS Code\ |  |  | 
+MySQL Router 8.0`t8.0.41`tOracle Corporation`tC:\Program Files\MySQL\MySQL Router 8.0\                                       |  |  | 
+MySQL Server 8.0`t8.0.41`tOracle Corporation`tC:\Program Files\MySQL\MySQL Server 8.0\                                       |  |  | 
+MySQL Shell`t8.0.41`tOracle Corporation`tC:\Program Files\MySQL\MySQL Shell 8.0                                              |  |  | 
+MySQL Workbench 8.0 CE`t8.0.41`tOracle Corporation`tC:\Program Files\MySQL\MySQL Workbench 8.0                               |  |  | 
+Python 3.13.5 (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                                            |  |  | 
+Python 3.13.5 Add to Path (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                                |  |  | 
+Python 3.13.5 Core Interpreter (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                           |  |  | 
+Python 3.13.5 Development Libraries (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                      |  |  | 
+Python 3.13.5 Documentation (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                              |  |  | 
+Python 3.13.5 Executables (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                                |  |  | 
+Python 3.13.5 pip Bootstrap (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                              |  |  | 
+Python 3.13.5 Standard Library (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                           |  |  | 
+Python 3.13.5 Tcl/Tk Support (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                             |  |  | 
+Python 3.13.5 Test Suite (64-bit)`t3.13.5150.0`tPython Software Foundation`t                                                 |  |  | 
+VMware Tools`t12.3.0.22234872`tVMware, Inc.`tC:\Program Files\VMware\VMware Tools\                                           |  |  | 
