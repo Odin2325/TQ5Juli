@@ -1,3 +1,8 @@
 {
     "inhalt": "Hallo, das ist mein erster JSON-Text!"
+}{
+    "workbench.colorCustomizations": {
+        "quickInput.background": "#06ee06",
+        "quickInput.foreground": "#000000"
+    }
 }
