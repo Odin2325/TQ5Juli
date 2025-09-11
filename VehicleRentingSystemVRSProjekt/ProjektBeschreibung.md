@@ -11,6 +11,11 @@ Wir üben dabei:
 
 ---
 
+## 0. Plannungsphase
+- Diagramme, Pseudocode und Struktogramme erstellen.
+
+---
+
 ## 1. Projektvorbereitung
 - Erstelle ein neues Verzeichnis `rental_system`.  
 - Erstelle eine Python-Datei `main.py`.  
@@ -80,14 +85,16 @@ Bevor du mit dem Programmieren beginnst, überlege dir, wie das System aufgebaut
 Bearbeite die folgenden Aufgaben:
 
 
-## Aufgabe A – Pseudocode
-Schreibe Pseudocode für die Funktion **„Fahrzeug mieten“**.  
+## Aufgabe A – Pseudocode und Struktogramme
+Schreibe Pseudocode und Struktogramme für mehrere Funktionen.  
 Dein Pseudocode soll die einzelnen Schritte des Prozesses enthalten.
+Deine Struktogramme sollen euer Pseudocode Darstellen.
 
 ---
 
 ## Aufgabe B – Aktivitätsdiagramm
-Erstelle ein **Aktivitätsdiagramm** für den Prozess **„Fahrzeug zurückgeben“**.  
+Erstelle **Aktivitätsdiagramme** für mehrere Prozesse.
+Bspw: **„Fahrzeug zurückgeben“**.  
 Es soll u. a. folgende Schritte zeigen:
 - Kunde bringt Auto zurück  
 - Kilometerstand eingeben  
@@ -158,11 +165,19 @@ Folgende Klassen könnten vorkommen:
 
 Beispiel:
 ```python
+# Log Datei festlegen beispiel:
+log_datei = f"rental_error_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.log"
 try:
-    # SQL Code
+    # Falsches SQL (spalte "Brandd" existiert nicht.)
+    cur.execute("SELECT Brandd FROM Vehicle")
+
 except Exception as e:
-    with open("rental_error.log", "a") as f:
-        f.write(f"{datetime.now()} - {e}\n")
+    # timestamp erstellen
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Zu log Datei Speichern
+    with open(log_datei, "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] SQL Error: {e}\n")
 ```
 
 ---
@@ -174,3 +189,15 @@ except Exception as e:
 - Passwort ändern.  
 - Zahlungs api einbauen damit man tatsaechlich Zahlen kann.
 - Uberlegen wie erstelle ich eine GUI (tkinter)
+
+---
+
+## 8. Dokumentation Erstellen
+- Schreibt fuer jede Klasse und jede Methode einen Docstring im Google Style.
+
+---
+
+## 9. Präsentation Erstellen
+- Jeder wird zeigen: Login, Fahrzeuge ansehen, Fahrzeug mieten, zurückgeben.
+- Reflexion: **Was hat MVC gebracht?**  
+- Optionale Erweiterungen vorstellen (z. B. Filter, Berichte)  

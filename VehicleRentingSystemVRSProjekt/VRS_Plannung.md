@@ -5,8 +5,8 @@ Bearbeite die folgenden Aufgaben:
 
 ---
 
-## Aufgabe A – Pseudocode
-Schreibe Pseudocode für die Funktion **„Fahrzeug mieten“**.  
+## Aufgabe A – Pseudocode und Struktogramme
+Schreibe Pseudocode für mind. 4 Funktionen **„Fahrzeug mieten“**.  
 Dein Pseudocode soll die einzelnen Schritte des Prozesses enthalten, z. B.:
 
 ```
@@ -20,11 +20,12 @@ function rent_vehicle(customer_id, vehicle_id, start_date, end_date):
     setze Fahrzeugstatus auf "Rented"
     gib Bestätigung zurück
 ```
+Danach auch mind. 4 Struktogramme erstellen für deine in Pseudocode definierten Funktionen. Mit strukt.io.
 
 ---
 
 ## Aufgabe B – Aktivitätsdiagramm
-Erstelle ein **Aktivitätsdiagramm** für den Prozess **„Fahrzeug zurückgeben“**.  
+Erstelle mindestens 5 **Aktivitätsdiagramm** für verschiedene Prozesse. Ein Beispiel: **„Fahrzeug zurückgeben“**.  
 Es soll u. a. folgende Schritte zeigen:
 - Kunde bringt Auto zurück  
 - Kilometerstand eingeben  
