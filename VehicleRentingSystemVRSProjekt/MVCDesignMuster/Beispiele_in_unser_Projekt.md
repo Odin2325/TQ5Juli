@@ -74,7 +74,7 @@ VIEW: zeigt Bestätigung "Fahrzeug erfolgreich gemietet"
 
 ## Beispiel Verzeichnisstruktur fuer unser Projekt
 
-![Verzeichnisstruktur](bilder/verzeichnisStruktur.png)
+![Verzeichnisstruktur](verzeichnisStruktur.png)
 
 ---
 

@@ -198,6 +198,5 @@ except Exception as e:
 ---
 
 ## 9. Präsentation Erstellen
-- Jeder wird zeigen: Login, Fahrzeuge ansehen, Fahrzeug mieten, zurückgeben.
-- Reflexion: **Was hat MVC gebracht?**  
-- Optionale Erweiterungen vorstellen (z. B. Filter, Berichte)  
+- Jeder wird zeigen: Login, Fahrzeuge ansehen, Fahrzeug mieten, zurückgeben. 
+- Optionale Erweiterungen vorstellen (z. B. Filter, Berichte), wenn MVC verwendet worden ist: - Reflexion: **Was hat MVC gebracht?** 
