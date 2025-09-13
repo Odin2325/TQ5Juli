@@ -11,4 +11,4 @@ class Kunde:
         text= print(f"vorname:{self.vorname}\n nachnam:{self.nachname}\n adress:{self.adresse}\n telefonnummer:{self.telefonnummer}")
         return text
        else:
-          return(f"voename:{self.vorname}\n nachname:{self.nachname}")
+          return f"{self.vorname}\n{self.nachname}"
