@@ -4,7 +4,7 @@ class Kunde:
         self.nachname=nachname
         self.adresse=adresse
         self.telefonnummer=telefonnummer
-        bakkontos=[]
+        
 
     def details(self,zeige_alles):
        if zeige_alles:
