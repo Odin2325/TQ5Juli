@@ -6,7 +6,7 @@ class Kunde:
         self.telefonnummer=telefonnummer
         
 
-    def details(self,zeige_alles):
+    def details_kunde(self,zeige_alles):
        if zeige_alles:
         text= print(f"vorname:{self.vorname}\n nachnam:{self.nachname}\n adress:{self.adresse}\n telefonnummer:{self.telefonnummer}")
         return text
