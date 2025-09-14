@@ -8,8 +8,8 @@ class Kunde:
 
     def details_kunde(self,zeige_alles):
        if zeige_alles:
-        text= print(f"vorname:{self.vorname}\n nachnam:{self.nachname}\n adress:{self.adresse}\n telefonnummer:{self.telefonnummer}")
-        return text
+         print(f"vorname:{self.vorname}\n nachnam:{self.nachname}\n adress:{self.adresse}\n telefonnummer:{self.telefonnummer}")
+        
        else:
           return f"{self.vorname}\n{self.nachname}"
        
