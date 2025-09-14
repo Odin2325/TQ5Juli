@@ -12,3 +12,4 @@ class Kunde:
         return text
        else:
           return f"{self.vorname}\n{self.nachname}"
+       
