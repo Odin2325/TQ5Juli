@@ -25,7 +25,7 @@ Danach auch mind. 4 Struktogramme erstellen für deine in Pseudocode definierten
 ---
 
 ## Aufgabe B – Aktivitätsdiagramm
-Erstelle mindestens 5 **Aktivitätsdiagramm** für verschiedene Prozesse. Ein Beispiel: **„Fahrzeug zurückgeben“**.  
+Erstelle mindestens 5 **Aktivitätsdiagramme** für verschiedene Prozesse. Ein Beispiel: **„Fahrzeug zurückgeben“**.  
 Es soll u. a. folgende Schritte zeigen:
 - Kunde bringt Auto zurück  
 - Kilometerstand eingeben  
