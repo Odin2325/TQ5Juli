@@ -2,7 +2,7 @@ import sqlite3
 import os
 
 # Pfad zur SQLite-Datenbank
-# db_path = 'C:\\Users\\mytq\\Desktop\\TQ5\\TQ5Juli\\September\\TQ5Komplett\\rental_system\\rental.db' 
+#db_path = 'C:\\Users\\mytq\\Desktop\\TQ5\\TQ5Juli\\September\\TQ5Komplett\\rental_system\\rental.db' 
 db_path = os.path.join('..', 'rental.db')
 
 # Stelle die Verbindung zur Datenbank her
