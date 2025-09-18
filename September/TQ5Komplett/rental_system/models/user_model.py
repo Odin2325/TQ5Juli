@@ -53,3 +53,13 @@ def update_password(user_id, new_password):
     except sqlite3.Error as e:
         print(f"Datenbankfehler: {e}")
 
+def get_login(username, password):
+    """
+    Sucht einen Benutzer anhand des Benutzernamens und Passworts.
+    """
+    try:
+        cur.execute("SELECT * FROM User WHERE Username = ? AND Password = ?", (username, password))
+        return cur.fetchone()
+    except sqlite3.Error as e:
+        print(f"Datenbankfehler: {e}")
+        return None
