@@ -36,8 +36,7 @@ def handle_login():
         if user[3] == "Employee":
             show_employee_menu() # Sie können diese Funktion in employee_view.py definieren
         elif user[3] == "Customer":
-            show_customer_menu() # Sie können diese Funktion in customer_view.py definieren
-        
+            show_customer_menu() # Sie können diese Funktion in customer_view.py definieren   
     else:
         print("\nLogin fehlgeschlagen. Ungültige Anmeldedaten.")
 
