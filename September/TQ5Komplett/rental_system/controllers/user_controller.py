@@ -10,8 +10,8 @@ from models.user_model import get_login
 
 # Importiere die Menüfunktionen aus der View
 from views.main_menu import show_main_menu
-#from views.customer_view import show_customer_menu
-#from views.employee_view import show_employee_menu
+from views.customer_view import show_customer_menu
+from views.employee_view import show_employee_menu
 
 # Definiere Funktionen zur Steuerung der Benutzeroberfläche
 # Dies ist das "geheime" Menü für Administratoren
