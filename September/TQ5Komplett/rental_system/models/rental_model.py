@@ -5,16 +5,15 @@ import datetime
 # Importiere die Verbindung und den Cursor aus der db_connection-Datei.
 from database.db_connection import conn, cur
 
-def rent_vehicle(user_id, vehicle_id):
+def rent_vehicle(customer_id, vehicle_id):
     """
     Erstellt eine neue Vermietung in der Datenbank mit dem Status 'Active'.
     """
     try:
         rent_date = datetime.date.today().isoformat()
-        # Hinweis: 'CustomerID' ist in der DB vorhanden, nicht 'UserID'
-        cur.execute("INSERT INTO Rental (CustomerID, VehicleID, StartDate, Status) VALUES (?, ?, ?, ?)", (user_id, vehicle_id, rent_date, 'Active'))
+        cur.execute("INSERT INTO Rental (CustomerID, VehicleID, StartDate, Status) VALUES (?, ?, ?, ?)", (customer_id, vehicle_id, rent_date, 'Active'))
         conn.commit()
-        print(f"Fahrzeug {vehicle_id} erfolgreich an Benutzer {user_id} vermietet.")
+        print(f"Fahrzeug {vehicle_id} erfolgreich an Benutzer {customer_id} vermietet.")
     except sqlite3.Error as e:
         print(f"Datenbankfehler: {e}")
 
@@ -41,12 +40,12 @@ def get_active_rentals():
         print(f"Datenbankfehler: {e}")
         return []
 
-def get_user_rental_history(user_id):
+def get_user_rental_history(customer_id):
     """
     Gibt die gesamte Vermietungshistorie eines Benutzers zurück.
     """
     try:
-        cur.execute("SELECT * FROM Rental WHERE CustomerID = ?", (user_id,))
+        cur.execute("SELECT * FROM Rental WHERE CustomerID = ?", (customer_id,))
         return cur.fetchall()
     except sqlite3.Error as e:
         print(f"Datenbankfehler: {e}")

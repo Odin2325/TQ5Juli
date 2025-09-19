@@ -24,13 +24,14 @@ def handle_user_management(user_role, user_id):
                 print("\nAlle Fahrzeuge:")
                 vehicles = get_all_vehicles()
                 for vehicle in vehicles:
-                    print(f"ID: {vehicle[0]}, Marke: {vehicle[1]}, Modell: {vehicle[2]}, Status: {vehicle[4]}")
+                    print(f"ID: {vehicle[0]}, Marke: {vehicle[1]}, Modell: {vehicle[2]}, Baujahr: {vehicle[3]}, Ratenhöhe: {vehicle[4]}, Status: {vehicle[5]}")
             
             elif choice == '2':
                 brand = input("Marke: ")
                 model = input("Modell: ")
-                color = input("Farbe: ")
-                add_vehicle(brand, model, color)
+                year = int(input("Baujahr: "))
+                daily_rate = float(input("Ratenhöhe: "))
+                add_vehicle(brand, model, year, daily_rate)
 
             elif choice == '3':
                 vehicle_id = int(input("Fahrzeug-ID: "))
@@ -41,7 +42,7 @@ def handle_user_management(user_role, user_id):
                 print("\nAlle aktiven Vermietungen:")
                 rentals = get_active_rentals()
                 for rental in rentals:
-                    print(f"Vermietungs-ID: {rental[0]}, Benutzer-ID: {rental[1]}, Fahrzeug-ID: {rental[2]}")
+                    print(f"Vermietungs-ID: {rental[0]}, Fahrzeug-ID: {rental[1]}, Kunden-ID: {rental[2]}")
             
             elif choice == '5':
                 print("Abmeldung...")
@@ -75,7 +76,7 @@ def handle_user_management(user_role, user_id):
                 print("\nIhre Miet-Historie:")
                 history = get_user_rental_history(user_id)
                 for rental in history:
-                    print(rental)
+                    print(f"Vermietungs-ID: {rental[0]}, Fahrzeug-ID: {rental[1]}, Startdatum: {rental[3]}, Enddatum: {rental[4]}")
 
             elif choice == '5':
                 print("Abmeldung...")

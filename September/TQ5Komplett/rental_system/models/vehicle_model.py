@@ -15,12 +15,10 @@ def get_all_vehicles():
         print(f"Datenbankfehler: {e}")
         return []
 
-def add_vehicle(brand, model, color, status='Available'):
-    """
-    Fügt ein neues Fahrzeug in die Datenbank ein.
-    """
+def add_vehicle(brand, model, year, daily_rate, status='Available'):
+    """Fügt ein neues Fahrzeug in die Datenbank ein."""
     try:
-        cur.execute("INSERT INTO Vehicle (Brand, Model, Color, Status) VALUES (?, ?, ?, ?)", (brand, model, color, status))
+        cur.execute("INSERT INTO Vehicle (Brand, Model, Year, DailyRate, Status) VALUES (?, ?, ?, ?, ?)", (brand, model, year, daily_rate, status))
         conn.commit()
         print(f"Fahrzeug {brand} {model} erfolgreich hinzugefügt.")
     except sqlite3.Error as e:
