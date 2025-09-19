@@ -76,14 +76,10 @@ python models/user_model.py
 
 ------------------------------------------------------------------------
 
-✅ **Wichtig**: Wenn du versuchst, `user_model.py` direkt aus dem
+ **Wichtig**: Wenn du versuchst, `user_model.py` direkt aus dem
 `models/`-Ordner zu starten, schlägt der Import fehl
 (`ModuleNotFoundError: No module named 'database'`).\
 Das passiert, weil Python den aktuellen Ordner als Root setzt.\
 **Lösung:** Immer vom obersten Verzeichnis (`project_root`) aus starten.
 
-------------------------------------------------------------------------
-
-👉 Möchtest du, dass ich dir auch den **Trick mit `sys.path`** zeige
-(damit du `user_model.py` direkt starten kannst, ohne ins Root zu
-wechseln), oder soll es lieber sauber mit Paket-Imports bleiben?
+----------------------------------------------------------------------
