@@ -2,12 +2,16 @@ from controllers.user_controller import UserController
 from controllers.vehicle_controller import VehicleController
 
 def main():
-    print("=== Vehicle Rental System ===")
+    print("=== Vehicle Rental System ===")  # Startmeldung
+
     user_controller = UserController()
     user = user_controller.login()
 
     if not user:
-        return  # Login fehlgeschlagen, Programm endet
+        print("❌ Login fehlgeschlagen, Programm wird beendet.")
+        return
+
+    print(f"🎉 Eingeloggt als {user['Username']} ({user['Role']})")
 
     vc = VehicleController()
     role = user["Role"]
@@ -46,3 +50,5 @@ def main():
             else:
                 print("❌ Ungültige Eingabe!")
 
+if __name__ == "__main__":
+    main()
