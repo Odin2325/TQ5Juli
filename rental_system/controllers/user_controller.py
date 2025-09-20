@@ -1,11 +1,10 @@
-# controllers/user_controller.py
 from models.user_model import UserModel
-from views.user_view import UserView
+from views.main_menu import MainMenuView
 
 class UserController:
     def __init__(self):
         self.model = UserModel()
-        self.view = UserView()
+        self.view = MainMenuView()
 
     def login(self):
         username, password = self.view.get_login_input()
@@ -13,5 +12,7 @@ class UserController:
 
         if user:
             self.view.show_login_success(user)
+            return user
         else:
             self.view.show_login_failure()
+            return None

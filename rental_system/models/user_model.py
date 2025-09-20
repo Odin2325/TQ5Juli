@@ -1,16 +1,8 @@
-# models/user_model.py
-import sqlite3
+from database.db_connection import get_connection
 
 class UserModel:
-    def __init__(self, db_name="rental.db"):
-        self.db_name = db_name
-
     def get_user_by_credentials(self, username, password):
-        """
-        Prüft, ob ein Benutzer mit Username und Passwort existiert.
-        Gibt ein Dictionary mit den User-Daten zurück oder None.
-        """
-        conn = sqlite3.connect(self.db_name)
+        conn = get_connection()
         cursor = conn.cursor()
 
         cursor.execute("""
@@ -18,7 +10,7 @@ class UserModel:
             FROM User
             WHERE Username=? AND Password=?
         """, (username, password))
-        
+
         row = cursor.fetchone()
         conn.close()
 

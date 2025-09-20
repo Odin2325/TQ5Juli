@@ -1,6 +1,4 @@
-# views/user_view.py
-
-class UserView:
+class MainMenuView:
     def get_login_input(self):
         username = input("Benutzername: ")
         password = input("Passwort: ")
